@@ -43,11 +43,13 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 #text {
     display: flex;
     flex-direction: column;
+    flex: 1 0 300px;
 }
 
 .text-item {
